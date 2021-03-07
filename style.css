@@ -1,0 +1,22 @@
+canvas {
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+body {
+    text-align: center;
+    margin-top: 15%;
+    background-color: turquoise;
+}
+
+div {
+    margin: 5% 38%;
+}
+
+.b {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+
+}

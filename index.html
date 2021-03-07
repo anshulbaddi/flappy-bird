@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flappy bird</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="startGame()">
+
+
+    <div style="text-align: center; width: 480px;">
+
+        <button class="b" onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">Up</button><br><br>
+        <button class="b" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">Left</button>
+        <button class="b" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">Right</button>
+        <br><br>
+        <button class="b" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">Down</button>
+
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
